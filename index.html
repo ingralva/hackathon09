@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Aloritmos | Alva IT Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <header>
+        <div class="contenedor Header">
+            <a class="Header-Logo-Texto-Link" href="#">
+                <img class="Header-Logo-Texto-Link-Logo" src="images/aits-logo.png"> 
+                <div>
+                    <span class="Header-Logo-Texto-Link__Texto1">Alva</span> <span class="Header-Logo-Texto-Link__Texto2">IT Solutions</span> 
+                </div>
+            </a>
+            <div class="Header-Menu">
+                <ul class="Header-ListItem">
+                    <li class="Header-Item"><a class="Header-Link Header-Selected" href="#">Inicio</a></li>
+                    <li class="Header-Item"><a class="Header-Link" href="#Preguntas">Preguntas</a></li>
+                    <li class="Header-Item"><a class="Header-Link" href="#Solucion">Solución</a></li>
+                </ul>
+            </div>
+        </div>
+        <section class="Header-About">
+            <h1 class="About texto-centro">ALGORITMOS</h1>
+        </section>        
+    </header>
+
+    <section class="Content-Preguntas" id="Preguntas">
+        <div class="contenedor">
+            <div>
+                <h3 class="Content-Titulo">PREGUNTAS</h3>                
+            </div>
+            <div >
+                <ol class="">
+                    <li class="Content-Preguntas-Item">
+                        <a class="Header-Link" href="#pregunta01">
+                            Implementar un algoritmo que reciba 2 argumentos y los sume, el resultado se deberá imprimir en pantalla
+                        </a>
+                    </li>
+                    <li class="Content-Preguntas-Item">
+                        <a class="Header-Link" href="#pregunta02">
+                            Un estudiante realiza 4 exámenes, calcular el promedio de estos
+                        </a>
+                    </li>
+                    <li class="Content-Preguntas-Item">
+                        <a class="Header-Link" href="#pregunta03">
+                            Calcular el área de un rectángulo
+                        </a>
+                    </li>
+                    <li class="Content-Preguntas-Item">
+                        <a class="Header-Link" href="#pregunta04">
+                            Calcular el área de un triángulo
+                        </a>
+                    </li>
+                    <li class="Content-Preguntas-Item">
+                        <a class="Header-Link" href="#pregunta05">
+                            Calcular el área de una circunferencia
+                        </a>
+                    </li>
+                    <li class="Content-Preguntas-Item">
+                        <a class="Header-Link" href="#pregunta06">
+                            Determinar el sueldo semanal de un trabajador basándose en sus horas trabajadas y su salario de hora hombre
+                        </a>
+                    </li>
+                    <li class="Content-Preguntas-Item">
+                        <a class="Header-Link" href="#pregunta07">
+                            Una modista, para realizar sus prendas de vestir, encarga las telas al extranjero. Para cada pedido, tiene que proporcionar las medidas de la tela en pulgadas, pero ella generalmente las tiene en metros. Realice un algoritmo para ayudar a resolver el problema, determinando cuantas pulgadas debe pedir con base en los metros que requiere. Represéntelo mediante el diagrama de flujo y el pseudocódigo (1 pulgada = 0.0254 m)
+                        </a>
+                    </li>
+                    <li class="Content-Preguntas-Item">
+                        <a class="Header-Link" href="#pregunta08">
+                            Una empresa importadora desea determinar cuántos dólares puede adquirir con equis cantidad de dinero peruano
+                        </a>
+                    </li>
+                    <li class="Content-Preguntas-Item">
+                        <a class="Header-Link" href="#pregunta09">
+                            Una empresa que contrata personal requiere determinar la edad de las personas que solicitan trabajo, pero cuando se les realiza la entrevista sólo se les pregunta el año en que nacieron
+                        </a>
+                    </li>
+                    <li class="Content-Preguntas-Item">
+                        <a class="Header-Link" href="#pregunta10">
+                            Se tiene el nombre y la edad de tres personas. Se desea saber el nombre y la edad de la persona de menor edad
+                        </a>
+                    </li>
+                    <li class="Content-Preguntas-Item">
+                        <a class="Header-Link" href="#pregunta11">
+                            Se les dará un bono por antigüedad a los empleados de una tienda. Si tienen un año, se les dará $100; si tienen 2 años, $200, y así sucesivamente hasta los 5 años. Para los que tengan más de 5, el bono será de $1000. Realice un algoritmo y represéntelo ,que permita determinar el bono que recibirá un trabajador
+                        </a>
+                    </li>
+                    <li class="Content-Preguntas-Item">
+                        <a class="Header-Link" href="#pregunta12">
+                            Un profesor tiene un salario inicial de $1500, y recibe un incremento de 10 % anual durante 6 años. ¿Cuál es su salario al cabo de 6 años? ¿Qué salario ha recibido en cada uno de los 6 años? Realice el algoritmo y representan la solución, utilizando el ciclo apropiado
+                        </a>
+                    </li>
+                    <li class="Content-Preguntas-Item">
+                        <a class="Header-Link" href="#pregunta13">
+                            Realice un algoritmo para leer las calificaciones de N alumnos y determine el número de aprobados y reprobados
+                        </a>
+                    </li>
+                    <li class="Content-Preguntas-Item">
+                        <a class="Header-Link" href="#pregunta14">
+                            Una compañía, fabrica focos de colores (verdes, blancos y rojos). Se desea contabilizar, de un lote de N focos, el número de focos de cada color que hay en existencia
+                        </a>
+                    </li>
+                    <li class="Content-Preguntas-Item">
+                        <a class="Header-Link" href="#pregunta15">
+                            Realice un algoritmo para determinar si una persona puede votar con base en su edad en las próximas elecciones
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="Content-Solucion" id="Solucion">
+        <div class="contenedor">
+            <div>
+                <h3 class="Content-Titulo">SOLUCION</h3>                
+            </div>
+            <article class="" id="pregunta01">
+                <h3 class="Content-Solucion-Respuesta-Titulo">1. Implementar un algoritmo que reciba 2 argumentos y los sume, el resultado se deberá imprimir en pantalla</h3>
+                <div class="Content-Respuesta">
+                    <p>
+                        function suma(num1, num2){ <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;return num1 + num2; <br>
+                        } <br>
+                        <br>
+                        console.log(suma(2, 3)); <br>
+                    </p>
+                </div>
+                <div class="Content-Respuesta-Link">
+                    <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="javascript:EjecutaPregunta01();">Ejecutar codigo</a>
+                    <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="#Preguntas">Regresar a Preguntas</a>
+                </div>                
+            </article>
+            <article class="" id="pregunta02">
+                <h3 class="Content-Solucion-Respuesta-Titulo">2. Un estudiante realiza 4 exámenes, calcular el promedio de estos</h3>
+                <div class="Content-Respuesta">
+                    <p>                        
+                        function calculaPromedio(examen1, examen2, examen3, examen4){ <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;return (examen1 + examen2 + examen3 + examen4)/4; <br>
+                        } <br>
+                        <br>
+                        console.log(calculaPromedio(12, 14, 13, 15)); <br>
+                    </p>
+                </div>
+                <div class="Content-Respuesta-Link">
+                    <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="javascript:EjecutaPregunta02();">Ejecutar codigo</a>
+                    <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="#Preguntas">Regresar a Preguntas</a>
+                </div>
+            </article>
+            <article class="" id="pregunta03">
+                <h3 class="Content-Solucion-Respuesta-Titulo">3. Calcular el área de un rectángulo</h3>
+                <div class="Content-Respuesta">
+                    <p>
+                        function areaRectangulo(base, altura){ <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;return base * altura; <br>
+                        } <br>
+                        <br>
+                        console.log(areaRectangulo(6, 4)); <br>                        
+                    </p>
+                </div>
+                <div class="Content-Respuesta-Link">
+                    <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="javascript:EjecutaPregunta03();">Ejecutar codigo</a>
+                    <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="#Preguntas">Regresar a Preguntas</a>
+                </div>
+            </article>
+            <article class="" id="pregunta04">
+                <h3 class="Content-Solucion-Respuesta-Titulo">4. Calcular el área de un triángulo</h3>
+                <div class="Content-Respuesta">
+                    <p>
+                        function areaTriangulo(base, altura){ <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;return base * altura / 2; <br>
+                        } <br>
+                        <br>
+                        console.log(areaTriangulo(4, 4)); <br>                        
+                    </p>
+                </div>
+                <div class="Content-Respuesta-Link">
+                    <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="javascript:EjecutaPregunta04();">Ejecutar codigo</a>
+                    <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="#Preguntas">Regresar a Preguntas</a>
+                </div>
+            </article>
+            <article class="" id="pregunta05">
+                <h3 class="Content-Solucion-Respuesta-Titulo">5. Calcular el área de una circunferencia</h3>
+                <div class="Content-Respuesta">
+                    <p>
+                        function areaCircunferencia(radio){ <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;const pi = 3.141592; <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;return pi * Math.pow(radio, 2); <br>
+                        } <br>
+                        <br>
+                        console.log(areaCircunferencia(4)); <br>
+                    </p>
+                </div>
+                <div class="Content-Respuesta-Link">
+                    <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="javascript:EjecutaPregunta05();">Ejecutar codigo</a>
+                    <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="#Preguntas">Regresar a Preguntas</a>
+                </div>
+            </article>
+            <article class="" id="pregunta06">
+                <h3 class="Content-Solucion-Respuesta-Titulo">6. Determinar el sueldo semanal de un trabajador basándose en sus horas trabajadas y su salario de hora hombre</h3>
+                <div class="Content-Respuesta">
+                    <p>
+                        function sueldoSemanal(horas, salario){ <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;return horas * salario; <br>
+                        } <br>
+                        <br>
+                        console.log(sueldoSemanal(48, 20)); <br>
+                    </p>
+                </div>
+                <div class="Content-Respuesta-Link">
+                    <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="javascript:EjecutaPregunta06();">Ejecutar codigo</a>
+                    <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="#Preguntas">Regresar a Preguntas</a>
+                </div>
+            </article>
+            <article class="" id="pregunta07">
+                <h3 class="Content-Solucion-Respuesta-Titulo">7. Una modista, para realizar sus prendas de vestir, encarga las telas al extranjero. 
+                    Para cada pedido, tiene que proporcionar las medidas de la tela en pulgadas, pero ella generalmente las tiene en metros. 
+                    Realice un algoritmo para ayudar a resolver el problema, determinando cuantas pulgadas debe pedir con base en los metros que requiere. 
+                    Represéntelo mediante el diagrama de flujo y el pseudocódigo (1 pulgada = 0.0254 m)</h3>
+                    <div class="Content-Respuesta">
+                        <p>
+                            function convertirMetrosToPulgadas(metros){ <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;const factorPulgadas = 0.0254 ; <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;return (metros / factorPulgadas).toFixed(2);  <br>
+                            } <br>
+                            <br>
+                            console.log(convertirMetrosToPulgadas(10)); <br>
+                        </p>
+                    </div>
+                    <div class="Content-Respuesta-Link">
+                        <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="javascript:EjecutaPregunta07();">Ejecutar codigo</a>
+                        <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="#Preguntas">Regresar a Preguntas</a>
+                    </div>
+            </article>
+            <article class="" id="pregunta08">
+                <h3 class="Content-Solucion-Respuesta-Titulo">8. Una empresa importadora desea determinar cuántos dólares puede adquirir con equis cantidad de dinero peruano</h3>
+                <div class="Content-Respuesta">
+                    <p>
+                        function convertirSolesToDolares(tipoCambio, monto){ <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;return (monto / tipoCambio).toFixed(2);  <br>
+                        } <br>
+                        <br>
+                        console.log(convertirSolesToDolares(100, 3.62)); <br>
+                    </p>
+                </div>
+                <div class="Content-Respuesta-Link">
+                    <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="javascript:EjecutaPregunta08();">Ejecutar codigo</a>
+                    <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="#Preguntas">Regresar a Preguntas</a>
+                </div>
+            </article>
+            <article class="" id="pregunta09">
+                <h3 class="Content-Solucion-Respuesta-Titulo">9. Una empresa que contrata personal requiere determinar la edad de las personas que solicitan trabajo, 
+                    pero cuando se les realiza la entrevista sólo se les pregunta el año en que nacieron</h3>
+                    <div class="Content-Respuesta">
+                        <p>
+                            function determinaEdad(anioNacimiento){ <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;const fecha = new Date(); <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;const anioActual = fecha.getFullYear(); <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;return anioActual - anioNacimiento; <br>
+                            } <br>
+                            <br>
+                            console.log(determinaEdad(1990)); <br>
+                        </p>
+                    </div>
+                    <div class="Content-Respuesta-Link">
+                        <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="javascript:EjecutaPregunta09();">Ejecutar codigo</a>
+                        <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="#Preguntas">Regresar a Preguntas</a>
+                    </div>
+            </article>
+            <article class="" id="pregunta10">
+                <h3 class="Content-Solucion-Respuesta-Titulo">10. Se tiene el nombre y la edad de tres personas. Se desea saber el nombre y la edad de la persona de menor edad</h3>
+                <div class="Content-Respuesta">
+                    <p>
+                        function personaMenor(){ <br>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;const valor1 = prompt('Ingrese nombre persona 1'); <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;const valor2 = parseInt(prompt('Ingrese valor de la edad persona 1')); <br>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;console.log(valor1);  <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;console.log(valor2);  <br>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;const personas = [{nombre: valor1, edad: valor2}];  <br>
+                        
+                        &nbsp;&nbsp;&nbsp;&nbsp;for(let i = 2; i <= 3; i++){  <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const valor1 = prompt('Ingrese nombre persona ' + i);  <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const valor2 = parseInt(prompt('Ingrese valor de la edad persona ' + i));  <br>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;let persona = {nombre: valor1, edad: valor2};  <br>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;personas.push(persona);  <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;}  <br>
+                        
+                        &nbsp;&nbsp;&nbsp;&nbsp;let personaMenor;  <br>
+                        
+                        &nbsp;&nbsp;&nbsp;&nbsp;if (personas[0].edad < personas[1].edad){  <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(personas[0].edad < personas[2].edad){  <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;personaMenor = 0;  <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}  <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else{  <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;personaMenor = 2;  <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}  <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;}  <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;else if (personas[1].edad < personas[2].edad){  <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;personaMenor = 1;  <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;}  <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;else {  <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;personaMenor = 2;  <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;}  <br>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;return `La persona de menor edad es ${personas[personaMenor].nombre} con edad ${personas[personaMenor].edad}`;  <br>
+                        }  <br>
+                        <br>
+                        console.log(personaMenor());  <br>
+
+                    </p>
+                </div>
+                <div class="Content-Respuesta-Link">
+                    <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="javascript:EjecutaPregunta10();">Ejecutar codigo</a>
+                    <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="#Preguntas">Regresar a Preguntas</a>
+                </div>
+            </article>
+            <article class="" id="pregunta11">
+                <h3 class="Content-Solucion-Respuesta-Titulo">11. Se les dará un bono por antigüedad a los empleados de una tienda. 
+                    Si tienen un año, se les dará $100; si tienen 2 años, $200, y así sucesivamente hasta los 5 años. 
+                    Para los que tengan más de 5, el bono será de $1000. Realice un algoritmo y represéntelo ,que permita determinar el bono que recibirá un trabajador</h3>
+                    <div class="Content-Respuesta">
+                        <p>
+                            function bonoTrabajador(antiguedad){ <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;const bono = 100; <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;const bonoMayorTiempo = 1000; <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;let resultado = 0; <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;if(antiguedad <=5 ){ <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resultado = antiguedad * bono; <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;} <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;else{ <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resultado = bonoMayorTiempo; <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;} <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;return resultado; <br>
+                            }
+                            
+                            console.log(bonoTrabajador()); <br>
+                        </p>
+                    </div>
+                    <div class="Content-Respuesta-Link">
+                        <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="javascript:EjecutaPregunta11();">Ejecutar codigo</a>
+                        <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="#Preguntas">Regresar a Preguntas</a>
+                    </div>
+            </article>
+            <article class="" id="pregunta12">
+                <h3 class="Content-Solucion-Respuesta-Titulo">12. Un profesor tiene un salario inicial de $1500, y recibe un incremento de 10 % anual durante 6 años. 
+                    ¿Cuál es su salario al cabo de 6 años? ¿Qué salario ha recibido en cada uno de los 6 años? 
+                    Realice el algoritmo y representan la solución, utilizando el ciclo apropiado</h3>
+                    <div class="Content-Respuesta">
+                        <p>
+                            function salarioRecibido(){ <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;const incremeto = 0.10; <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;let salario = 1500; <br>
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;let mensaje = ''; <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;mensaje = mensaje + `Salario año 1: ${salario.toFixed(2)} <br>
+                            `; <br>
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;for(let i = 2; i <= 6; i++){ <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;salario= (salario * (1 + incremeto)).toFixed(2); <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;mensaje = mensaje + `Salario año ${i}: ${salario}  <br>
+                            `; <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;} <br>
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;return mensaje; <br>
+                            <br>
+                            } <br>
+                            <br>
+                            console.log(salarioRecibido()); <br>
+                        </p>
+                    </div>
+                    <div class="Content-Respuesta-Link">
+                        <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="javascript:EjecutaPregunta12();">Ejecutar codigo</a>
+                        <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="#Preguntas">Regresar a Preguntas</a>
+                    </div>
+            </article>
+            <article class="" id="pregunta13">
+                <h3 class="Content-Solucion-Respuesta-Titulo">13. Realice un algoritmo para leer las calificaciones de N alumnos y determine el número de aprobados y reprobados</h3>
+                
+                <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="#Preguntas">Regresar a Preguntas</a>
+            </article>
+            <article class="" id="pregunta14">
+                <h3 class="Content-Solucion-Respuesta-Titulo">14. Una compañía, fabrica focos de colores (verdes, blancos y rojos). 
+                    Se desea contabilizar, de un lote de N focos, el número de focos de cada color que hay en existencia</h3>
+                
+                <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="#Preguntas">Regresar a Preguntas</a>
+            </article>
+            <article class="" id="pregunta15">
+                <h3 class="Content-Solucion-Respuesta-Titulo">15. Realice un algoritmo para determinar si una persona puede votar con base en su edad en las próximas elecciones</h3>
+                
+                <a class="Header-Link texto-derecha" style="color: #50B3FF; display: block;" href="#Preguntas">Regresar a Preguntas</a>
+            </article>
+        </div>
+    </section>
+
+    <section class="Footer">
+        <h4 class="About texto-centro">HACKATON 08 - 30/01/2021</h1>
+        <h5 class="About texto-centro">ALVA SILVA, RAUL</h1>
+    </section> 
+
+</body>
+</html>

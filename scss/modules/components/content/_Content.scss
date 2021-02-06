@@ -1,0 +1,73 @@
+
+.Content {
+    background: white;
+
+    &-Buscar {
+        background: $segundo-Color-Fondo;
+        padding: 15px;
+        border-radius: 10px;
+        margin: 30px 0px;
+
+        input {
+            width: 100%;
+            border: 0;
+            background: rgb(241, 241, 241);
+            
+            outline: 0;
+            font-size: 16px;
+
+        }
+    }
+
+    &-Titulo {
+        
+        margin-right: 15px;
+        margin-left: 15px;
+        max-width: 100%;
+        color: $tercer-Color;
+        font-family: $tipo-Letra;        
+    }
+
+    &-Preguntas {
+        padding: 10px 0px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        &-Item {
+            padding: .5em;
+            
+        }
+    }
+
+    &-Solucion {
+        background: $segundo-Color-Fondo;
+        padding: 10px 0px;
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        &-Respuesta-Titulo {
+            font-size: 1.2em;
+        }
+
+        &-Respuesta {
+            font-size: 1em;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    }
+
+    &-Respuesta {
+        background: $sexto-color;
+        color:#d6deeb;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1em;
+        padding: 1.5em;
+        margin-bottom: 1em;
+
+        &-Link {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1.5em;
+            padding-bottom: 1.5em;
+        }
+    }
+
+}
