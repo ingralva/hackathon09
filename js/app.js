@@ -5,7 +5,7 @@ function EjecutaPregunta01(){
     const valor1 = parseInt(prompt('Ingrese valor del primer numero'));
     const valor2 = parseInt(prompt('Ingrese valor del segundo numero'));
 
-    alert('El resultado es: ' + Pregunta01(valor1, valor2));
+    alert('El resultado es: ' + suma(valor1, valor2));
 }
 
 function EjecutaPregunta02(){
